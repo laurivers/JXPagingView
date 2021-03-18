@@ -378,7 +378,7 @@ extension JXPagingView: JXPagingListContainerViewDelegate {
     }
 
     public func listContainerViewDidEndScrolling(_ listContainerView: JXPagingListContainerView) {
-        mainTableView.isScrollEnabled = true
+        mainTableView.isScrollEnabled = false
     }
 
     public func listContainerView(_ listContainerView: JXPagingListContainerView, listDidAppearAt index: Int) {
